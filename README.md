@@ -8,7 +8,7 @@ Git init
 Git config receive.denyCurrentBranch ignore
 cd .git/hooks/
 nano post-receive
-#!/bin/sh
+type #!/bin/sh
 	GIT_WORK_TREE=../ git checkout -f
 	Ctrl+x
 	Y to save
@@ -48,7 +48,7 @@ Git init
 Git config receive.denyCurrentBranch ignore
 Cd .git/hooks/
 Nano post-receive
-#!/bin/sh
+type #!/bin/sh
 GIT_WORK_TREE=../ git checkout -f
 Ctrl+x
 Y to save
